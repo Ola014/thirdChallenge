@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+margin: 0;
+}
+#wrap {
+    margin: 1em 5%;
+    padding: 0 10px 10px 10px;
+    background-color:rgb(4, 131, 163);
+    width: 80%;
+}
+
+#nav{
+    float: left;
+    background-color: wheat;
+    margin-left: 3em;
+    padding-top: 1em;
+    width: 21%;
+    height: 76%;
+    text-align: center;
+}
+.first{
+    list-style-type: circle;
+    text-align: left;
+}
+#content {
+    background-color: rgb(19, 185, 226);
+    width: 70%;
+   padding: 1em 0.5em;
+   margin: 0 5% 5% 25%;
+}
+ul{
+    list-style:none;
+}
+
+li {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+li::first-letter{
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+.copyright{
+    text-align: center;
+}
