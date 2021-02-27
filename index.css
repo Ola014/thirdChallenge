@@ -1,22 +1,24 @@
 body{
     padding: 0;
-margin: 0;
-}
+    margin: 0;
 #wrap {
-    margin: 1em 5%;
     padding: 0 10px 10px 10px;
     background-color:rgb(4, 131, 163);
     width: 80%;
+    position: relative;
+    top: 5%;
+    left: 5%;
 }
 
 #nav{
     float: left;
     background-color: wheat;
-    margin-left: 3em;
     padding-top: 1em;
-    width: 21%;
-    height: 76%;
-    text-align: center;
+    position: relative;
+    left: 5%;
+    width: 20%;
+    height: 80%;
+    
 }
 .first{
     list-style-type: circle;
@@ -25,8 +27,10 @@ margin: 0;
 #content {
     background-color: rgb(19, 185, 226);
     width: 70%;
-   padding: 1em 0.5em;
-   margin: 0 5% 5% 25%;
+   padding: 1em 0.5em 0;
+   position: relative;
+   left: 25%;
+   height: 80%;
 }
 ul{
     list-style:none;
